@@ -31,7 +31,7 @@ This system uses **Content-Based Filtering** to recommend 5 similar movies based
 
 ## 🛠️ Technologies
 
-- **Python 3.x**
+- **Python**
 - **NumPy** - Array operations
 - **Pandas** - Data manipulation
 - **NLTK** - Text preprocessing (Porter Stemmer)
