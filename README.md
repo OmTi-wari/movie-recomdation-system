@@ -11,8 +11,7 @@ A content-based movie recommendation system built with Machine Learning that sug
 - [How It Works](#how-it-works)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Challenges & Solutions](#challenges--solutions)
-- [Future Improvements](#future-improvements)
+
 
 ---
 
@@ -139,32 +138,6 @@ streamlit run app.py
 2. Select a movie from dropdown
 3. Click "Recommend"
 4. View 5 similar movies
-
----
-
-## 🚧 Challenges & Solutions
-
-### 1. **get_feature_names() AttributeError**
-- **Problem**: Deprecated in scikit-learn 1.0+
-- **Solution**: Used `get_feature_names_out()`
-
-### 2. **Duplicate Recommendations**
-- **Problem**: Same movie appearing multiple times
-- **Solution**: `drop_duplicates(subset='title')`
-
-### 3. **Confusing Output Format**
-- **Problem**: Titles and indices mixed
-- **Solution**: Show `title (similarity_score)`
-
----
-
-## 🚀 Future Improvements
-
-- [ ] Use TF-IDF for better word weighting
-- [ ] Add movie posters via TMDB API
-- [ ] Include ratings and popularity scores
-- [ ] Implement collaborative filtering
-- [ ] Deploy on cloud platform
 
 ---
 
