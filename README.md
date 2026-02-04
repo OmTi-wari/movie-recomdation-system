@@ -69,7 +69,6 @@ movie-recommendation-system/
 └── README.md                          # Project documentation
 ```
 
----
 
 ## ⚙️ How It Works
 
@@ -99,7 +98,6 @@ def recommend(movie):
     return [new_def.iloc[i[0]].title for i in movies_list]
 ```
 
----
 
 ## 📥 Installation
 
@@ -130,7 +128,6 @@ cd frontend
 streamlit run app.py
 ```
 
----
 
 ## 💻 Usage
 
