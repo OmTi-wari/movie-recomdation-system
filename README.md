@@ -1,6 +1,6 @@
 # 🎬 Movie Recommendation System
 
-A content-based movie recommendation system built with Machine Learning that suggests similar movies based on genres, keywords, cast, crew, and plot overview.
+A content-based movie recommendation system built with Machine Learning that suggests similar movies based on genres, keywords, cast, crew, and plot overview
 
 ---
 
